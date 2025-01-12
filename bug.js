@@ -1,0 +1,1 @@
+This bug occurs when using the Expo ImagePicker library within a React Navigation's `useIsFocused` hook.  The issue stems from attempting to launch the image picker while the component isn't focused. This leads to unpredictable behavior, such as the picker failing to open or crashing the app. The problem is exacerbated by asynchronous operations within the image picker process.
